@@ -1,11 +1,14 @@
 package academy.digitallab.store.product.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 
 @Entity
-@Table(name="tbl_categorias")
+@Table(name = "tbl_categories")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
